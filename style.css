@@ -1,0 +1,76 @@
+body{
+    background: #f2f2f2;
+    font-family: 'PT Sans';
+}
+
+.searchWrapper{
+    background: #666666;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    max-width: 64px;
+}
+
+.loginSearch{
+    color: #fff;
+    background-color: #666666;
+    border: 1px solid #fff;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.loginSearch::placeholder{
+    color: #fff;
+}
+
+.loginSearch:focus{
+    outline: none;
+}
+
+.btn{
+    margin-top: 5px;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    color: #666666;
+    border:none;
+}
+
+.cards{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.card{
+    color: #565656;
+    width: 210px;
+    border: 1px solid #d7d7d7;
+    margin: 0 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.Userfoto{
+    max-width: 150px;
+    border-radius: 50%;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 10px;
+}
+
+.userName{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
